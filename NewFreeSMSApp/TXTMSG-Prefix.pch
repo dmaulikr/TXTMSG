@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'NewFreeSMSApp' target in the 'NewFreeSMSApp' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+    #import <Foundation/Foundation.h>
+#endif

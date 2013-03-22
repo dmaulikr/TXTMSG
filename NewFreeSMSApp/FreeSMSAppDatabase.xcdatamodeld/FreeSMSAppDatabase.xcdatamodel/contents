@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AddressBook" representedClassName="AddressBook" syncable="YES">
+        <attribute name="addressbook" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Login" representedClassName="Login" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SentSMS" representedClassName="SentSMS" syncable="YES">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipient" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentdate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sentfrom" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Templates" representedClassName="Templates" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserAccounts" representedClassName="UserAccounts" syncable="YES">
+        <attribute name="accountname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accounttype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Login" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="SentSMS" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Templates" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="UserAccounts" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="AddressBook" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>
